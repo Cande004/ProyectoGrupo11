@@ -156,4 +156,177 @@ form {
   input[type="submit"]:focus {
     outline: none;
   }
-  
+/* Seccion sobre nosotros  */
+#sobre_nosotros{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 5%;
+
+}
+.p-sobre-nosotros{
+    background-color: #f8e9f0; 
+    padding: 3%;
+    border-radius: 5px;
+    border: solid #bb6085;
+    margin: 2%;
+    box-shadow: 5px 5px 5px #bb6085;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+#Persona{
+    background-color: #f8e9f0;
+    border-radius: 5px;
+    width: 550px;
+    height: 400px;
+    size: 70%;
+    align-self: center;
+    padding-left: 25px;
+}
+
+/* Seccion Cursos y Taller  */
+.Imagen-tarjeta{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 2%;
+
+}
+.container{
+    width: 100vh;
+    height: 900px;
+    margin-top: 50px;
+}
+.tarjetas{
+    display: flex;
+    padding: 4em;
+    align-items: center;
+    margin-left: 5%;
+}
+.tarjeta{
+    background-color: #fff;
+    height: 550px;
+    width: 350px;
+    margin: 15px;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+
+}
+.tarjeta h3{
+    text-align: center;
+    font-size: 2em;
+    color: #bb6085;
+    font-weight: bold;
+    margin: 2%;
+    letter-spacing: 1px;
+}
+.button{
+    background-color: #bb6085;
+    color: #fff;
+    font-size: 1em;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.tarjeta p {
+    font-family:'Poppins', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+.container h2{
+    text-align: center;
+    font-size: 2em;
+    color: #bb6085;
+    font-weight: bold;
+    margin: 2%;
+    letter-spacing: 2px;
+   
+}
+.h2titulo{
+    display: inline;
+    position:sticky ;
+    font-family: 'Poppins', sans-serif;
+    opacity: 70%;
+    background-color: #903d68;
+}
+.tarjeta:hover{
+    size: 110%;
+    box-shadow: 5px 5px 5px #bb6085;
+    transform: scale(1.1);
+    transition: transform .2s;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 80%;
+    transition: .5s;
+
+}
+/* Seccion Productos */
+.categorias{
+    width: 1200px;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    padding: 25px;
+}
+.producto{
+    width: 500px;
+    height: 350px;
+    margin: 25px;
+    background-color: #fff;
+    padding: 25px;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+.imgcategoria{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #bb6085;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.producto:hover{
+    size: 110%;
+    box-shadow: 5px 5px 5px #bb6085;
+    transform: scale(1.1);
+    transition: transform .2s;
+    cursor: pointer;
+
+
+}
+
+
